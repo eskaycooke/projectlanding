@@ -10,7 +10,6 @@ body {
 .header {
 display: flex;
 justify-content: space-between;
-align-items: flex-end;
 padding: 8px;
 border-radius: 10px;
 
@@ -21,33 +20,37 @@ border-radius: 10px;
     color: white;
     font-size: xx-small;
     text-decoration: none;
-    flex: space-around;
-    
 
   
 }
 
 .container {
     display: flex;
-  
     border-radius: 5px;
     padding: 5px;
     border: 5px;
+    width: 100%;
+    height: 100%;
+    
     
   
 }
 
 .item {
-   text-align:left;  
+    flex-direction: flex-start;
+    width: 100%;
+ 
+ 
 }
 
 .box {
-
+    display: flex;
     background-color: slategray;
     margin: 30px;
     padding: 30px;
-    border-radius: 20px;
-   
+    
+    
+    
 }
 
 button {
@@ -60,12 +63,22 @@ button {
    
 }
 
-.whitebox {
-    align-self: flex-start;
+.item2 {
+    display: flex;
+    justify-content: center;
     color: black;
-    background-color: white;
-    margin-left: 0px;
-    padding: 40px;
-    border-radius: 0px;
+    background-color: white;  
+    justify-content: center;   
+
+}
+ .imagebox {
+    display: flex; 
+    width: 30px;
+    height: 30px;
+    padding: 10px; 
+    border: solid blue 2px;
+    margin: 2px;
+    text-align:center;
+      
 
 }
