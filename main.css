@@ -29,17 +29,16 @@ border-radius: 10px;
 
 .container {
     display: flex;
-
+  
     border-radius: 5px;
     padding: 5px;
     border: 5px;
+    
   
 }
 
 .item {
    text-align:left;  
-   text-size: xx-small; 
-
 }
 
 .box {
@@ -48,6 +47,7 @@ border-radius: 10px;
     margin: 30px;
     padding: 30px;
     border-radius: 20px;
+   
 }
 
 button {
@@ -58,4 +58,14 @@ button {
     size: small;
    
    
+}
+
+.whitebox {
+    align-self: flex-start;
+    color: black;
+    background-color: white;
+    margin-left: 0px;
+    padding: 40px;
+    border-radius: 0px;
+
 }
