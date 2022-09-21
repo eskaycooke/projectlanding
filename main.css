@@ -21,8 +21,6 @@ font-size: xx-small;
     color: white;
     font-size: xx-small;
     text-decoration: none;
-    
-
   
 }
 
@@ -74,7 +72,7 @@ button {
     justify-content: center;   
 
 }
- .imagebox {
+ img {
     display: flex;
     flex-direction: column; 
     width: 30px;
@@ -116,6 +114,7 @@ button {
     align-items: flex-start;
     border: 30px;
     padding: 30px;
+    text-align: left;
  
 
 }
@@ -124,23 +123,24 @@ button {
     border: 30px;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
     color: white;
     background-color:#3882F6;
     border-radius: 10px;
     padding: 20px; 
+    
  
 }
 
 .button2 {  
-    
+    display: flex;
     color: white;
     background-color: #3882F6;
     border-radius: 5px;
     border: solid white 1px;
     font-size: small;
     margin: 20px;
+    
     }
 
     .item3 {
@@ -149,3 +149,12 @@ button {
         font-size: small;
 
     }
+
+  div {
+    display: block;
+  }
+
+  p {
+    display: block;
+    text-align: center;
+  }
